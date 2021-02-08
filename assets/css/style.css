@@ -179,9 +179,9 @@ p {
       transform: translate3d(-50%, -50%, 0) scale(1.5); }
   .main-btn.main-btn-2 {
     color: #fff;
-    background-color: #ff8257; }
+    background-color: #3657aa; }
     .main-btn.main-btn-2::before {
-      background-color: #2e3d62; }
+      background-color: #2bae13; }
     .main-btn.main-btn-2:hover {
       color: #fff; }
       .main-btn.main-btn-2:hover::before {
@@ -218,7 +218,7 @@ p {
 .section-title .title {
   font-size: 46px;
   font-weight: 800;
-  color: #2e3d62;
+  color:black;
   margin-top: 5px;
   letter-spacing: -2px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -701,7 +701,7 @@ p {
           .banner-content-wrapper .banner-content .download-btn li a.apple-store {
             background-color: #3657aa; }
             .banner-content-wrapper .banner-content .download-btn li a.apple-store:hover {
-              background-color: #2bae13; }
+              background-color: #2bae13;color: black; }
   .banner-content-wrapper .banner-image {
     margin-top: 50px; }
     .banner-content-wrapper .banner-image .image {
@@ -793,7 +793,7 @@ p {
   .features-area::before {
     position: absolute;
     content: '';
-    background-color: #dfdfdf;
+    background-color: #f1f1f1;
     width: 100%;
     height: 80%;
     top: 0;
@@ -1104,15 +1104,15 @@ p {
           font-size: 16px;
           line-height: 28px; } }
       .powerful-tools-content .powerful-content-wrapper .content-list li i {
-        color: #ff8257;
+        color: #2bae13;
         position: absolute;
         top: 5px;
         left: 0; }
 .powerful-tools-content .main-btn {
-  padding: 0 50px;
-  margin-top: 52px;
-  height: 70px;
-  line-height: 70px; }
+  /* padding: 0 50px; */
+  margin-top: 52px;}
+  /* height: 70px; */
+  /* line-height: 70px; } */
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .powerful-tools-content .main-btn {
       height: 50px;
