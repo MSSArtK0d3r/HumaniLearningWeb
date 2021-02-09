@@ -157,7 +157,7 @@ p {
     height: 0;
     padding: 50%;
     border-radius: 50%;
-    background-color: #ff8257;
+    background-color: #2bae13;
     z-index: -1;
     -webkit-transform: translate3d(-50%, -50%, 0) scale(0);
     -moz-transform: translate3d(-50%, -50%, 0) scale(0);
@@ -246,7 +246,7 @@ p {
   left: 0;
   width: 100%;
   z-index: 999;
-  padding: 23px 0;
+  padding: 10px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
   .header-area.sticky {
     position: fixed;
@@ -3086,5 +3086,8 @@ p {
 
 .timesRed {
   color:red !important;
-}          
+}    
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }      
 /*# sourceMappingURL=style.css.map */
