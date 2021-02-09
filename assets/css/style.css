@@ -1816,13 +1816,13 @@ p {
   padding-top: 120px; }
 
 .screenshot-active {
-  padding: 92px 0 92px;
+  padding: 0px 0 40px;
   position: relative;
   margin-top: 46px; }
   .screenshot-active::before {
     position: absolute;
     content: '';
-    width: 21%;
+    width: 35%;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -1831,7 +1831,7 @@ p {
     transform: translateX(-50%);
     top: 0;
     height: 100%;
-    background-image: url(../images/screens/frame.png);
+    /* background-image: url(../images/screens/frame.png); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 5; }
@@ -1852,7 +1852,7 @@ p {
 
 .screenshot-pagination {
   position: relative;
-  margin-top: 45px;
+  margin-top: 15px;
   text-align: center; }
   .screenshot-pagination .swiper-pagination-bullet {
     background: #2e3d62;
@@ -2208,7 +2208,6 @@ p {
 .download-content p {
   font-size: 18px;
   color: #666e82;
-  font-style: italic;
   padding-top: 15px;
   font-weight: 500; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
