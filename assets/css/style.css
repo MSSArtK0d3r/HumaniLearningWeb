@@ -21,14 +21,14 @@
 /*===========================
         01.COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
   font-style: normal;
-  color: #666e82;
+  color: black;
   overflow-X: hidden; }
 
 * {
@@ -73,7 +73,7 @@ h5,
 h6 {
   font-family: 'Patua One', cursive;
   font-weight: 400;
-  color: #2e3d62;
+  color: black;
   margin: 0px; }
 
 h1 {
@@ -101,7 +101,7 @@ ul, ol {
 
 p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   color: black;
   margin: 0px; }
@@ -120,7 +120,7 @@ p {
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -198,7 +198,7 @@ p {
 
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
-  font-weight: 400;
+  font-weight: 500;
   color: black;
   font-size: 16px;
   position: relative;
@@ -221,7 +221,7 @@ p {
   font-weight: 400;
   color:black;
   margin-top: 5px;
-  letter-spacing: -2px; }
+ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-title .title {
       font-size: 40px; } }
@@ -626,10 +626,11 @@ p {
         .banner-content-wrapper .banner-content .title {
           font-size: 48px; } }
     .banner-content-wrapper .banner-content p {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: inherit;
       line-height: 34px;
-      margin-top: 35px; }
+      margin-top: 35px; 
+      letter-spacing: 1px;}
       @media (max-width: 767px) {
         .banner-content-wrapper .banner-content p {
           font-size: 16px;
@@ -870,7 +871,7 @@ p {
     font-size: 22px;
     line-height: 34px;
     font-weight: 400;
-    color: #2e3d62;
+    color: black;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
@@ -903,7 +904,7 @@ p {
       background-color: #5dd8d3;
       color: #fff;
       text-align: center;
-      font-size: 22px;
+      font-size: 30px;
       border-radius: 5px;
       -webkit-box-shadow: 0px -25px 30px 0px rgba(0, 0, 0, 0.05);
       -moz-box-shadow: 0px -25px 30px 0px rgba(0, 0, 0, 0.05);
@@ -920,11 +921,11 @@ p {
         -o-transform: rotate(-45deg);
         transform: rotate(-45deg); }
   .single-features.features-1 .features-icon i {
-    color: #5dd8d3; }
+    color: #FF0000; }
   .single-features.features-1 .features-btn a {
-    background-color: #5dd8d3; }
+    background-color: #FF0000; }
   .single-features.features-1:hover {
-    background-color: #5dd8d3; }
+    background-color: #FF0000; }
     .single-features.features-1:hover .features-icon i {
       color: #fff; }
     .single-features.features-1:hover .features-content .features-title a {
@@ -944,11 +945,11 @@ p {
     .single-features.features-2:hover .features-content p {
       color: rgba(255, 255, 255, 0.8); }
   .single-features.features-3 .features-icon i {
-    color: #ee539b; }
+    color: #4c6ef5; }
   .single-features.features-3 .features-btn a {
-    background-color: #ee539b; }
+    background-color: #4c6ef5; }
   .single-features.features-3:hover {
-    background-color: #ee539b; }
+    background-color: #4c6ef5; }
     .single-features.features-3:hover .features-icon i {
       color: #fff; }
     .single-features.features-3:hover .features-content .features-title a {
@@ -1084,9 +1085,10 @@ p {
   padding-top: 38px; }
   .powerful-tools-content .powerful-content-wrapper p {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 500;
     color: black;
-    line-height: 40px; }
+    line-height: 40px;
+    letter-spacing: 1px; }
     @media (max-width: 767px) {
       .powerful-tools-content .powerful-content-wrapper p {
         font-size: 16px;
@@ -1095,7 +1097,7 @@ p {
     padding-top: 35px; }
     .powerful-tools-content .powerful-content-wrapper .content-list li {
       font-size: 18px;
-      font-weight: 400;
+      font-weight: 500;
       color:black;
       margin-top: 10px;
       position: relative;
@@ -1174,7 +1176,7 @@ p {
   margin-top: 50px; }
   .discover-content-wrapper .discover-content p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 34px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .discover-content-wrapper .discover-content p {
@@ -2199,7 +2201,7 @@ p {
 .download-content .title {
   font-size: 50px;
   font-weight: 400;
-  color: #2e3d62; }
+  color: black; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .download-content .title {
       font-size: 40px; } }
@@ -2207,10 +2209,11 @@ p {
     .download-content .title {
       font-size: 24px; } }
 .download-content p {
-  font-size: 18px;
+  font-size: 20px;
   color: black;
   padding-top: 15px;
-  font-weight: 400  ; }
+  font-weight: 500;
+  letter-spacing: 1px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .download-content p {
       font-size: 16px;
