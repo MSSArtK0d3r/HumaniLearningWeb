@@ -248,7 +248,7 @@ p {
   width: 100%;
   z-index: 999;
   padding: 10px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+ }
   .header-area.sticky {
     position: fixed;
     top: 0;
@@ -3098,3 +3098,16 @@ p {
   font-family: 'Audiowide', cursive;
 }
 /*# sourceMappingURL=style.css.map */
+.center-object {
+  text-align: center;
+}
+.join-tele {
+  padding: 15px 40px;
+  background-color: #0f8dd5;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
