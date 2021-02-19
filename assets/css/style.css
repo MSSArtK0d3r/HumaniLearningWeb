@@ -250,6 +250,7 @@ p {
   padding: 10px 0;
  }
   .header-area.sticky {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -3100,6 +3101,7 @@ p {
 /*# sourceMappingURL=style.css.map */
 .center-object {
   text-align: center;
+  margin-top: 10px;
 }
 .join-tele {
   padding: 15px 40px;
@@ -3110,4 +3112,15 @@ p {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+}
+
+.kuponDiskon{
+  letter-spacing: 2px;
+  background-color:#a31dae;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 3px 10px;
+  color: white;
+  font-weight: 700;
 }
