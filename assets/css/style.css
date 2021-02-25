@@ -3126,6 +3126,7 @@ p {
 }
 
 .cdSpan{
+    font-size: 22px;
     padding: 10px;
     border-radius: 5px;
     color: #d80f22;
